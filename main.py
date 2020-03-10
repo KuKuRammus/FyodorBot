@@ -13,7 +13,7 @@ class FyodorBot(discord.Client):
     messages_collection = None
     channel_ids = []
     ignored_user_ids = []
-    violation_reaction_emoji = "💩"
+    violation_reaction_emoji = ""
 
     def set_database(self, db):
         self.database = db
